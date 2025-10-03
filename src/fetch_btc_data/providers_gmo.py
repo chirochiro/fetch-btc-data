@@ -10,7 +10,6 @@ class BTCProvider:
     """
     GMOコインからBTC取引データを取得し、指定した間隔でOHLCVを計算するクラス
     interval: OHLCVの時間間隔（分単位、例: 15）
-    save_path: 結果のCSVを保存するディレクトリパス
     """
     def __init__(self, interval: int, save_path : str):
         self.interval = interval
