@@ -8,7 +8,7 @@ from datetime import datetime, timedelta
 
 class BTCProvider:
     """
-
+    GMOコインからBTC取引データを取得し、指定した間隔でOHLCVを計算するクラス
     """
     def __init__(self, interval: int, save_path : str):
         self.interval = interval
