@@ -10,3 +10,5 @@ wheels/
 .venv
 
 .results/
+src/fetch_btc_data/fetch_from_gmo.py
+
